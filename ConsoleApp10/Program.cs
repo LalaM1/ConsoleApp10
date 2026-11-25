@@ -72,7 +72,7 @@
             Point p2 = new Point
             {
                 X = 10,
-                Y = 100
+                Y = 0
             };
 
             Console.WriteLine(p1);
@@ -93,8 +93,12 @@
             //p1++;
             //Console.WriteLine(p1);
 
+            //var point = new Point();
+            //point = p1 + p2;
+            //Console.WriteLine(point);
+
             var point = new Point();
-            point = p1 + p2;
+            point = p1 / p2;
             Console.WriteLine(point);
 
         }
